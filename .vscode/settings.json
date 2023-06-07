@@ -50,5 +50,6 @@
     "CHANGELOG.md": "CHANGELOG*",
     "package.json": "pnpm-lock.yaml,pnpm-workspace.yaml,LICENSE,.gitattributes,.gitignore,.gitpod.yml,CNAME,README*,.npmrc,.browserslistrc,vite.config.*,windi.*,tailwind.*,tsconfig.*,postcss*",
     ".eslintrc.js": ".eslintignore,.eslintrc-*,.prettierignore,.stylelintignore,.commitlintrc.js,.prettierrc.js,.stylelint*,stylelint*,prettier.*,.editorconfig"
-  }
+  },
+  "compile-hero.disable-compile-files-on-did-save-code": false
 }

@@ -29,3 +29,6 @@ VITE_BASE_PATH=/
 
 # 输出路径
 VITE_OUT_DIR=dist-pro
+
+
+
