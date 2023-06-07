@@ -74,6 +74,11 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
           drop_debugger: env.VITE_DROP_DEBUGGER === 'true',
           drop_console: env.VITE_DROP_CONSOLE === 'true'
         }
+      },
+      rollupOptions: {
+        output: {
+          inlineDynamicImports: true
+        }
       }
     },
     optimizeDeps: { include, exclude }
